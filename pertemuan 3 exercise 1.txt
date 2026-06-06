@@ -1,0 +1,5 @@
+credits = 201
+if (credits % 2 == 0):
+   print ("even")  
+elif  (credits % 2 >= 1):
+    print ("odd")# Entering ELIF Block Progra    prin
