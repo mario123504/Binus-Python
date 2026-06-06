@@ -1,0 +1,21 @@
+credits = 100
+if (credits ==1):
+    print ("bABY")
+elif (2 <= credits <= 3):
+    print ("toddler")
+elif (4 <= credits <= 5):
+    print ("preschool")
+elif (6 <= credits <= 12):
+    print ("child") 
+elif (13 <= credits <= 17):
+    print ("teenager")   
+elif (18 <= credits <= 21):
+    print ("young adult")
+elif (22 <= credits <= 30):
+    print ("pre adult")  
+elif (31 <= credits <= 50):
+    print ("adult") 
+elif (51 <= credits <= 70):
+    print ("pre elderly")
+elif (71 <= credits ):
+    print ("elderly")
