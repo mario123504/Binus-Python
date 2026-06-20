@@ -1,0 +1,28 @@
+def addition (a,b):
+    return a+b
+def substraction (a,b) :
+    return a-b
+def division (a,b):
+    return a/b
+def multiplications (a,b) :
+    return a*b
+def modulus (a,b):
+    return a%b
+print ("--------")
+print ("Mario")
+print ("Bintaro")   
+while True :
+    menu = input ("enter menu (+|-|/|*|%|stop):")
+    if menu.lower()=="stop":
+        print ("program stopped. thank you.")
+    value1 = int(input("enter value 1:"))
+    value2 = int(input("enter value 2:"))
+    if menu == "+":
+        result = addition(value1, value2)
+        print (f"the result of addition {value1} + {value2} is {result}")
+   if menu == "*":
+        result = multiplication(value1, value2)
+        print (f"the result of multiplication {value1} * {value2} is {result}")     
+        
+
+                
